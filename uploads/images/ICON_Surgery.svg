@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="103.029" viewBox="0 0 103 103.029">
+  <g id="ICON_Surgery" transform="translate(1.5 1.529)">
+    <path id="Path_157" data-name="Path 157" d="M76.76,4.52l-5.9-4a3.18,3.18,0,0,0-4.41.86L29.33,56.47a3.18,3.18,0,0,0,.86,4.41l5.9,4A3.18,3.18,0,0,0,40.5,64L77.62,8.93a3.18,3.18,0,0,0-.86-4.41Z" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_158" data-name="Path 158" d="M0,100c18.54-.21,32.85-24.64,32.85-24.64a3.71,3.71,0,0,0-1-5.14l-5-3.39a3.71,3.71,0,0,0-5.14,1Z" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_64" data-name="Line 64" x1="3.81" y2="5.64" transform="translate(32.67 65.13)" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_65" data-name="Line 65" y1="5.65" x2="3.8" transform="translate(26.05 60.66)" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_66" data-name="Line 66" y1="27.45" x2="18.51" transform="translate(44.22 18.98)" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_67" data-name="Line 67" x2="10.3" transform="translate(19.96 100)" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_68" data-name="Line 68" x2="10.3" transform="translate(43.21 100)" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_69" data-name="Line 69" x2="10.3" transform="translate(66.45 100)" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_70" data-name="Line 70" x2="10.3" transform="translate(89.7 100)" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

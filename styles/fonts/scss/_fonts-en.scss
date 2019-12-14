@@ -1,0 +1,130 @@
+
+
+@font-face {
+<<<<<<< HEAD
+  font-family: 'Myriad Pro';
+  src: url('../fonts/fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fonts/MyriadPro-Regular.woff2') format('woff2'),
+      url('../fonts/fonts/MyriadPro-Regular.woff') format('woff'),
+      url('../fonts/fonts/MyriadPro-Regular.ttf') format('truetype'),
+      url('../fonts/fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+=======
+  font-family: 'HelveticaNeueLTGEO-55Roman';
+  src: url('../fonts/fonts/helvetica-roman.eot');
+  src: url('../fonts/fonts/helvetica-roman.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/fonts/helvetica-roman.woff2') format('woff2'),
+  url('../fonts/fonts/helvetica-roman.woff') format('woff'),
+  url('../fonts/fonts/helvetica-roman.ttf') format('truetype'),
+  url('../fonts/fonts/helvetica-roman.svg#HelveticaNeueLTGEO-55Roman') format('svg');
+>>>>>>> 6855bb2ec9bc90d9e7d334ad209b24657de205fc
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+<<<<<<< HEAD
+  font-family: 'Myriad Pro bold';
+  src: url('../fonts/fonts/MyriadPro-Bold.eot');
+  src: url('../fonts/fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fonts/MyriadPro-Bold.woff') format('woff'),
+      url('../fonts/fonts/MyriadPro-Bold.ttf') format('truetype'),
+      url('../fonts/fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+  font-weight: normal;
+=======
+  font-family: 'HelveticaNeueLTGEO-45Light';
+  src: url('../fonts/fonts/helvetica-light.eot');
+  src: url('../fonts/fonts/helvetica-lightt.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/fonts/helvetica-light.woff2') format('woff2'),
+  url('../fonts/fonts/helvetica-light.woff') format('woff'),
+  url('../fonts/fonts/helvetica-light.ttf') format('truetype'),
+  url('../fonts/fonts/helvetica-light.svg#HelveticaNeueLTGEO-45Light') format('svg');
+  font-weight: 300;
+>>>>>>> 6855bb2ec9bc90d9e7d334ad209b24657de205fc
+  font-style: normal;
+}
+
+@font-face {
+<<<<<<< HEAD
+  font-family: 'Geometria';
+  src: url('../fonts/fonts/Geometria.eot');
+  src: url('../fonts/fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fonts/Geometria.woff2') format('woff2'),
+      url('../fonts/fonts/Geometria.woff') format('woff'),
+      url('../fonts/fonts/Geometria.ttf') format('truetype'),
+      url('../fonts/fonts/Geometria.svg#Geometria') format('svg');
+  font-weight: normal;
+=======
+  font-family: 'HelveticaNeueLTGEO-65Medium';
+  src: url('../fonts/fonts/helvetica-medium.eot');
+  src: url('../fonts/fonts/helvetica-medium.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/fonts/helvetica-medium.woff2') format('woff2'),
+  url('../fonts/fonts/helvetica-medium.woff') format('woff'),
+  url('../fonts/fonts/helvetica-medium.ttf') format('truetype'),
+  url('../fonts/fonts/helvetica-medium.svg#HelveticaNeueLTGEO-65Medium') format('svg');
+  font-weight: 500;
+>>>>>>> 6855bb2ec9bc90d9e7d334ad209b24657de205fc
+  font-style: normal;
+}
+
+@font-face {
+<<<<<<< HEAD
+  font-family: 'Geometria Medium';
+  src: url('../fonts/fonts/Geometria-Medium.eot');
+  src: url('../fonts/fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fonts/Geometria-Medium.woff2') format('woff2'),
+      url('../fonts/fonts/Geometria-Medium.woff') format('woff'),
+      url('../fonts/fonts/Geometria-Medium.ttf') format('truetype'),
+      url('../fonts/fonts/Geometria-Medium.svg#Geometria-Medium') format('svg');
+=======
+  font-family: 'helveticaNeueLTGEO-thin';
+  src: url('../fonts/fonts/helvetica-thin.eot');
+  src: url('../fonts/fonts/helvetica-thin.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/fonts/helvetica-thin.woff2') format('woff2'),
+  url('../fonts/fonts/helvetica-thin.woff') format('woff'),
+  url('../fonts/fonts/helvetica-thin.ttf') format('truetype'),
+  url('../fonts/fonts/helvetica-thin.svg#HelveticaNeueLTGEO-35Thin') format('svg');
+>>>>>>> 6855bb2ec9bc90d9e7d334ad209b24657de205fc
+  font-weight: 100;
+  font-style: normal;
+}
+
+<<<<<<< HEAD
+
+$myriadMedium: 'Myriad Pro';
+$myriadBold: 'Myriad Pro bold';
+$primaryFont: 'Geometria';
+$geometriaMedium: 'Geometria Medium';
+=======
+@font-face {
+  font-family: 'HelveticaNeue-Bold';
+  src: url('../fonts/fonts/helvetica-bold.eot');
+  src: url('../fonts/fonts/helvetica-bold.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/fonts/helvetica-bold.woff2') format('woff2'),
+  url('../fonts/fonts/helvetica-bold.woff') format('woff'),
+  url('../fonts/fonts/helvetica-bold.ttf') format('truetype'),
+  url('../fonts/fonts/helvetica-bold.svg#HelveticaNeueLTGEO-75Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Vision';
+  src: url('../fonts/fonts/Vision-Regular.eot');
+  src: url('../fonts/fonts/Vision-Regular.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/fonts/Vision-Regular.woff2') format('woff2'),
+  url('../fonts/fonts/Vision-Regular.woff') format('woff'),
+  url('../fonts/fonts/Vision-Regular.ttf') format('truetype'),
+  url('../fonts/fonts/Vision-Regular.svg#Vision-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+$bold: 'HelveticaNeue-Bold';
+$primary: 'HelveticaNeueLTGEO-55Roman';
+$light: 'HelveticaNeueLTGEO-45Light';
+$medium: 'HelveticaNeueLTGEO-65Medium';
+$thin: 'helveticaNeueLTGEO-thin';
+$vision: 'Vision';
+>>>>>>> 6855bb2ec9bc90d9e7d334ad209b24657de205fc

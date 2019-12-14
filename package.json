@@ -1,0 +1,15 @@
+{
+  "name": "",
+  "version": "",
+  "description": "step 1: run         npm install -g gulp",
+  "dependencies": {
+    "browser-sync": "^2.26.5",
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.10.0",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^3.2.1",
+    "gulp-uglify": "^3.0.2",
+    "natives": "^1.1.6"
+  }
+}

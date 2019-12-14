@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103.034" height="103" viewBox="0 0 103.034 103">
+  <g id="ICON_Radiology" transform="translate(1.5 1.5)">
+    <path id="Path_128" data-name="Path 128" d="M37.26,71.5V85.89H80.13V71.5" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_129" data-name="Path 129" d="M80.13,71.5h17V67.1a3.68,3.68,0,0,0-3.66-3.7H23.87a3.68,3.68,0,0,0-3.66,3.7v4.4h17" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_130" data-name="Path 130" d="M0,85.89H91.66A8.39,8.39,0,0,1,100,94.33V100" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_131" data-name="Path 131" d="M14.39,16.64H32.65v3a3.92,3.92,0,0,0,3.89,3.94h4.88A5,5,0,0,1,45.75,26l2.5,4.15H69.13L71.63,26A5,5,0,0,1,76,23.57h4.88a3.92,3.92,0,0,0,3.89-3.94V4.86A4.83,4.83,0,0,0,79.93,0H37.46a4.83,4.83,0,0,0-4.8,4.86v4.2H12.44A12.51,12.51,0,0,0,0,21.65V100H100" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_132" data-name="Path 132" d="M80.52,44.39l-9.36.39a6.58,6.58,0,0,0-6.26,7.33h-7A3.87,3.87,0,0,0,54.06,56v7.41H77.42a4,4,0,0,0,3.95-4.07V56a3.86,3.86,0,0,0-4-3.85" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_133" data-name="Path 133" d="M98.95,60.28a6.82,6.82,0,0,0-2-9.36A6.66,6.66,0,0,0,87.65,53a6.82,6.82,0,0,0,2,9.36,6.66,6.66,0,0,0,9.3-2.08Z" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <path id="Path_134" data-name="Path 134" d="M46.69,63.41H24.77a4.58,4.58,0,0,1-4.56-4.61V55.7H54.07" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_49" data-name="Line 49" x2="8.45" transform="translate(37.26 71.5)" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    <line id="Line_50" data-name="Line 50" x2="20.89" transform="translate(48.25 36.58)" fill="none" stroke="#3055a3" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+  </g>
+</svg>

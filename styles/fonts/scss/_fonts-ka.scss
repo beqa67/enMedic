@@ -1,0 +1,54 @@
+
+
+@font-face {
+  font-family: 'Myriad Pro';
+  src: url('../fonts/fonts/MyriadPro-Regular.eot');
+  src: url('../fonts/fonts/MyriadPro-Regular.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fonts/MyriadPro-Regular.woff2') format('woff2'),
+      url('../fonts/fonts/MyriadPro-Regular.woff') format('woff'),
+      url('../fonts/fonts/MyriadPro-Regular.ttf') format('truetype'),
+      url('../fonts/fonts/MyriadPro-Regular.svg#MyriadPro-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Myriad Pro bold';
+  src: url('../fonts/fonts/MyriadPro-Bold.eot');
+  src: url('../fonts/fonts/MyriadPro-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fonts/MyriadPro-Bold.woff') format('woff'),
+      url('../fonts/fonts/MyriadPro-Bold.ttf') format('truetype'),
+      url('../fonts/fonts/MyriadPro-Bold.svg#MyriadPro-Bold') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria';
+  src: url('../fonts/fonts/Geometria.eot');
+  src: url('../fonts/fonts/Geometria.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fonts/Geometria.woff2') format('woff2'),
+      url('../fonts/fonts/Geometria.woff') format('woff'),
+      url('../fonts/fonts/Geometria.ttf') format('truetype'),
+      url('../fonts/fonts/Geometria.svg#Geometria') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Geometria Medium';
+  src: url('../fonts/fonts/Geometria-Medium.eot');
+  src: url('../fonts/fonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/fonts/Geometria-Medium.woff2') format('woff2'),
+      url('../fonts/fonts/Geometria-Medium.woff') format('woff'),
+      url('../fonts/fonts/Geometria-Medium.ttf') format('truetype'),
+      url('../fonts/fonts/Geometria-Medium.svg#Geometria-Medium') format('svg');
+  font-weight: 100;
+  font-style: normal;
+}
+
+
+$myriadMedium: 'Myriad Pro';
+$myriadBold: 'Myriad Pro bold';
+$primaryFont: 'Geometria';
+$geometriaMedium: 'Geometria Medium';

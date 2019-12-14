@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <![endif]-->
+    <title>enMedic</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="google-site-verification" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--favicon-->
+    <!-- <link rel="apple-touch-icon" sizes="76x76" href="images/fav/apple-touch-icon.png"> -->
+
+    <!--Plugins-->
+    <link href="plugins/bootstrap-4.0.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/swiper-5.2.0/swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/fancybox-master/dist/jquery.fancybox.min.css" rel="stylesheet">
+    <!--Custom Css-->
+    <link href="styles/css/style-ka.css" rel="stylesheet">
+
+</head>
+
+<body class="site">
+    <header class="site__header">
+        <div class="container">
+            <div class="header">
+                <div class="row header__sup">
+                    <div class="col-3">
+                        <div class="logo">
+                            <img src="images/logo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-9 d-flex justify-content-end">
+                        <div class="search">
+                            <form>
+                                <div class="d-flex">
+                                    <img src="images/search.svg" alt="" class="search__icon">
+                                    <input type="text" class="search__input">
+                                </div>
+                            </form>
+                            <ul class="quick-links">
+                                <li><a href="#" class="quick-links__item">Request an appointment</a></li>
+                                <li><a href="#" class="quick-links__item">Find a doctor</a></li>
+                                <li><a href="#" class="quick-links__item">Find a job</a></li>
+                                <li><a href="#" class="quick-links__item">contribute now</a></li>
+                            </ul>
+                            <div class="patient-corner">
+                                <a href="#" class="patient-corner__login">
+                                    <img src="images/user.svg" alt="" class="main-icon main-icon--mr-15 svg">
+                                    <span>Patient log in</span>
+                                </a>
+                                <div class="lang">
+                                    <div class="lang__choosen">
+                                        <img src="images/globe.svg" alt="" class="main-icon main-icon--mr-15 svg">
+                                        <span>English</span>
+                                        <img src="images/arrow-down.svg" alt=""
+                                            class="main-icon lang__choosen-icon  svg">
+                                    </div>
+                                    <ul class="lang__items">
+                                        <li><a href="#" class="lang__item">Georgian</a></li>
+                                        <li><a href="#" class="lang__item">Russian</a></li>
+                                    </ul>
+                                </div>
+                                <ul class="socials">
+                                    <li><a href="#" class="socials__item"><img src="images/facebook.svg" alt=""
+                                                class="main-icon svg"></a></li>
+                                    <li><a href="#" class="socials__item"><img src="images/tweeter.svg" alt=""
+                                                class="main-icon svg"></a></li>
+                                    <li><a href="#" class="socials__item"><img src="images/youtube.svg" alt=""
+                                                class="main-icon svg"></a></li>
+                                    <li><a href="#" class="socials__item"><img src="images/chat.svg" alt=""
+                                                class="main-icon svg"></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header-mobile">
+                            <a href="tel:9999999" class="header-mobile__item"><img src="images/phone.svg" alt=""></a>
+                            <a href="#" class="header-mobile__item"><img src="images/user2.svg" alt=""></a>
+                            <button class="header-mobile__item header-mobile__burger-open"><img
+                                    src="images/bars.svg"></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="row header__sub">
+                    <div class="col-12">
+                        <ul class="main-menu">
+                            <li><a href="#" class="main-menu__item main-menu__item--active text-uppercase ">Home</a>
+                            </li>
+                            <li><a href="#" class="main-menu__item text-uppercase">Our Clinic</a></li>
+                            <li><a href="#" class="main-menu__item text-uppercase">Doctors</a></li>
+                            <li><a href="#" class="main-menu__item text-uppercase">News Blog</a></li>
+                            <li><a href="#" class="main-menu__item text-uppercase">promotions</a></li>
+                            <li><a href="#" class="main-menu__item text-uppercase">gallery</a></li>
+                            <li><a href="#" class="main-menu__item text-uppercase">contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row header-mobile-content">
+
+                    <div class="col-12">
+                        <form class="mb-20">
+                            <div class="d-flex">
+                                <img src="images/search.svg" alt="" class="search__icon">
+                                <input type="text" class="search__input">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-12 mb-15">
+                        <div class="header-mobile-content__sect">
+                            <img src="images/globe-w.svg" alt="" class="header-mobile-content__lang-icon">
+                            <a href="#" class="header-mobile-content__lang-item">ქართ</a>
+                            <a href="#" class="header-mobile-content__lang-item">eng</a>
+                            <a href="#" class="header-mobile-content__lang-item">rus</a>
+                            <a href="#" class="header-mobile-content__lang-item">AZE</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mb-15">
+                        <div class="header-mobile-content__sect">
+                            <a href="#" class="footer__social"><img src="images/facebook-w.svg" alt=""></a>
+                            <a href="#" class="footer__social"><img src="images/tweeter-w.svg" alt=""></a>
+                            <a href="#" class="footer__social"><img src="images/youtube-w.svg" alt=""></a>
+                            <a href="#" class="footer__social"><img src="images/chat-w.svg" alt=""></a>
+                            <a href="#" class="footer__donation-btn footer__donation-btn--mobile ml-0">DONATE</a>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <ul class="header-mobile-content__menu">
+                            <li class="header-mobile-content__item"><a href="#" class="header-mobile-content__link">OUR CLINIC</a></li>
+                            <li class="header-mobile-content__item"><a href="#" class="header-mobile-content__link">DOCTORS</a></li>
+                            <li class="header-mobile-content__item"><a href="#" class="header-mobile-content__link">NEWS BLOG</a></li>
+                            <li class="header-mobile-content__item"><a href="#" class="header-mobile-content__link">GALLERY</a></li>
+                            <li class="header-mobile-content__item"><a href="#" class="header-mobile-content__link">CONTACTS</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+
+    <main class="site__content">
+        <div class="content">
+            <div class="container container-for-banners">
+                <div class="main-banners">
+                    <div class="row h100-p">
+                        <div class="col-xl-6">
+                            <a href="#" class="main-banner main-banner--big"
+                                style="background-image: url('uploads/images/banner.jpg');"></a>
+                        </div>
+                        <div class="col-xl-6">
+                            <div class="row h100-p main-banner--nested-row">
+                                <div class="col-6 main-banner--nested-col">
+                                    <a href="#" class="main-banner">
+                                        <img src="uploads/images/appointments.svg" alt="" class="main-banner__icon">
+                                        <h2 class="main-banner__title text-uppercase">Appointments</h2>
+                                    </a>
+                                </div>
+                                <div class="col-6 main-banner--nested-col">
+                                    <a href="#" class="main-banner ">
+                                        <img src="uploads/images/findADoctor.svg" alt="" class="main-banner__icon">
+                                        <h2 class="main-banner__title text-uppercase">Find a doctor</h2>
+                                    </a>
+                                </div>
+                                <div class="col-6 main-banner--nested-col">
+                                    <a href="#" class="main-banner ">
+                                        <img src="uploads/images/callDoctor.svg" alt="" class="main-banner__icon">
+                                        <h2 class="main-banner__title text-uppercase">call the doctor</h2>
+                                    </a>
+                                </div>
+                                <div class="col-6 main-banner--nested-col">
+                                    <a href="#" class="main-banner ">
+                                        <img src="uploads/images/visitor.svg" alt="" class="main-banner__icon">
+                                        <h2 class="main-banner__title text-uppercase">patient & visitor guide</h2>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="departaments-section">
+                    <h1 class="main-title text-uppercase text-center">medical departaments</h1>
+                    <div class="swiper-container departaments-carousel">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <a href="#" class="departaments-carousel__item">
+                                    <img src="uploads/images/ICON_Anesthesiology.svg" alt=""
+                                        class="departaments-carousel__icon">
+                                    <h3 class="departaments-carousel__title">Anesthesiology</h3>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="departaments-carousel__item">
+                                    <img src="uploads/images/ICON_Angiology.svg" alt=""
+                                        class="departaments-carousel__icon">
+                                    <h3 class="departaments-carousel__title">Angiology</h3>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="departaments-carousel__item">
+                                    <img src="uploads/images/ICON_Cardiology.svg" alt=""
+                                        class="departaments-carousel__icon">
+                                    <h3 class="departaments-carousel__title">Cardiology</h3>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="departaments-carousel__item">
+                                    <img src="uploads/images/ICON_Cytology.svg" alt=""
+                                        class="departaments-carousel__icon">
+                                    <h3 class="departaments-carousel__title">Cytology</h3>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="departaments-carousel__item">
+                                    <img src="uploads/images/ICON_Dentistry.svg" alt=""
+                                        class="departaments-carousel__icon">
+                                    <h3 class="departaments-carousel__title">Dentistry</h3>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="departaments-carousel__item">
+                                    <img src="uploads/images/ICON_Dermatology.svg" alt=""
+                                        class="departaments-carousel__icon">
+                                    <h3 class="departaments-carousel__title">Dermatology</h3>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#" class="departaments-carousel__item">
+                                    <img src="uploads/images/ICON_Doctor-Laborant.svg" alt=""
+                                        class="departaments-carousel__icon">
+                                    <h3 class="departaments-carousel__title">Doctor-Laborant</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+
+                <div class="services-section">
+                    <div class="row">
+                        <div class="col-xl-5">
+                            <div class="services-section__info">
+                                <h2 class="services-section__title text-uppercase">our best laboratoy services</h2>
+                                <ul class="services-section__list">
+                                    <li>Full blood parameter</li>
+                                    <li>Virology on the go</li>
+                                    <li>Special services</li>
+                                </ul>
+                                <a href="tel:322774000" class="services-section__phone">(+995) 32 2 774 000</a>
+                            </div>
+                        </div>
+                        <div class="col-xl-7">
+                            <div class="services-section__img-container">
+                                <img src="uploads/images/servicesbg.jpg" alt="" class="services-section__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <footer class="site__footer">
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 d-block d-lg-none">
+                        <div class="footer__group">
+                            <div class="d-flex justify-content-between">
+                                <ul class="footer__socials footer__socials--mobile">
+                                    <li><a href="#" class="footer__social"><img src="images/facebook-w.svg" alt=""></a>
+                                    </li>
+                                    <li><a href="#" class="footer__social"><img src="images/tweeter-w.svg" alt=""></a>
+                                    </li>
+                                    <li><a href="#" class="footer__social"><img src="images/youtube-w.svg" alt=""></a>
+                                    </li>
+                                    <li><a href="#" class="footer__social"><img src="images/chat-w.svg" alt=""></a></li>
+                                </ul>
+                                <a href="#" class="footer__donation-btn footer__donation-btn--mobile">DONATE</a>
+                            </div>
+                            <div class="footer__mobile-info">
+                                <p>9. Tsinandali.Ave., 0144 Tbilisi</p>
+                                <a href="mailto:info@enmedic.com">info@enmedic.com</a>
+                                <a href="tel:(+99532)2774000">(+995 32) 2 774 000</a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer__group">
+                            <h3 class="footer__title">For Medical Professionals</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Find a doctor</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Refer a patient</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">View clinical trials</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__group">
+                            <h3 class="footer__title">For Students</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">View degree programs</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">View admissions
+                                        requirements</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Log in to the student
+                                        portal</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__group">
+                            <h3 class="footer__title">For Clinic Faculty and Staff</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Find a doctor</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Find other career
+                                        opportunities</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__group">
+                            <h3 class="footer__title">For the Media</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Media requests</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer__group">
+                            <h3 class="footer__title">For Researchers</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Find an expert in a research
+                                        area</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">View Clinic's lab services</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer__group">
+                            <h3 class="footer__title">For Job Seekers</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">View open positions</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Working at our Clinic</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__group">
+                            <h3 class="footer__title">For International Patients</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Request an appointment</a>
+                                </li>
+                                <li class="footer__item"><a href="#" class="footer__link">Financial services</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">International offices</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__group">
+                            <h3 class="footer__title">Charitable Care & Financial Assistance</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Arizona financial assistance
+                                        documents</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Florida financial assistance
+                                        documents</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">Minnesota financial assistance
+                                        documents</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="footer__group d-none d-lg-block">
+                            <h3 class="footer__title">Follow ENMEDIC Clinic</h3>
+                            <ul class="footer__socials">
+                                <li><a href="#" class="footer__social"><img src="images/facebook-w.svg" alt=""></a></li>
+                                <li><a href="#" class="footer__social"><img src="images/tweeter-w.svg" alt=""></a></li>
+                                <li><a href="#" class="footer__social"><img src="images/youtube-w.svg" alt=""></a></li>
+                                <li><a href="#" class="footer__social"><img src="images/chat-w.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__group">
+                            <h3 class="footer__title">Free E-Newsletter</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Get our free e-newsletter to
+                                        stay up to date on the</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">latest health information from
+                                        experts at our Clinic.</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer__group">
+                            <h3 class="footer__title">Your Gift Holds Great Power</h3>
+                            <ul class="footer__list">
+                                <li class="footer__item"><a href="#" class="footer__link">Make your tax-deductible gift
+                                        today, and be a part of</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">cutting-edge research and care
+                                        that's changing medicine</a></li>
+                                <li class="footer__item"><a href="#" class="footer__link">as it's known today.</a></li>
+                            </ul>
+                        </div>
+                        <a href="#" class="footer__donation-btn d-none d-lg-inline-block">MAKE A DONATION</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+    </footer>
+
+    <!--Plugins-->
+    <script src="plugins/jquery/jquery-3.3.1.min.js"></script>
+    <script src="plugins/bootstrap-4.0.0/assets/js/vendor/popper.min.js"></script>
+    <script src="plugins/bootstrap-4.0.0/dist/js/bootstrap.min.js"></script>
+    <script src="plugins/swiper-5.2.0/swiper.min.js"></script>
+    <script src="plugins/fancybox-master/dist/jquery.fancybox.min.js"></script>
+
+    <!--Custom Scripts-->
+    <script src="minJs/default.min.js"></script>
+</body>
+
+</html>
